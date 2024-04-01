@@ -17,11 +17,12 @@ public class GenThree {
 		int r3 = (int)((Math.random())*(b-a)+a);
 
 		//Use of Math.min method to detct the minimal value 
-		int min = Math.min(r1, r2);
+		int min1 = Math.min(r1, r2);
+		int min2 = Math.min(min1, r3);
 
 		System.out.println(r1);
 		System.out.println(r2);
 		System.out.println(r3);
-		System.out.println("The minimal generated number was " + min);
+		System.out.println("The minimal generated number was " + min2);
 	}
 }
